@@ -30,6 +30,10 @@ public class CombinaçãoLinear {
         for(int i=0; i<3; i++){
             v2[i] = in.nextInt();
         }
+        System.out.println("Digite o valor do primeiro coeficiente <a>: ");
+        a = in.nextInt();
+        System.out.println("Digite o valor do segundo coeficiente <b>: ");
+        b = in.nextInt();
         
         System.out.println("\nW = a.v1 + b.v2");
         System.out.println("("+W[0]+","+W[1]+","+W[2]+")" + " = " + a + "." + "("+v1[0]+","+v1[1]+","+v1[2]+")" + " + " +
