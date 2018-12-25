@@ -31,6 +31,10 @@ public class CombinaçãoLinear {
             v2[i] = in.nextInt();
         }
         
+        System.out.println("\nW = a.v1 + b.v2");
+        System.out.println("("+W[0]+","+W[1]+","+W[2]+")" + " = " + a + "." + "("+v1[0]+","+v1[1]+","+v1[2]+")" + " + " +
+                           b + "." + "("+v2[0]+","+v2[1]+","+v2[2]+")");
+        
     }
     
 }
