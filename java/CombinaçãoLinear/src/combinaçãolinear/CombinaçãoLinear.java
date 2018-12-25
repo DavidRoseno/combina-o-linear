@@ -18,16 +18,17 @@ public class CombinaçãoLinear {
         int resA[] = new int[3]; //Recebe o resultado da conta entre o coeficiente e cada respectiva posição do vetor<a.v1>
         int resB[] = new int[3]; //Recebe o resultado da conta entre o coeficiente e cada respectiva posição do vetor<b.v2>
         int comb[] = new int[3]; //Armazena o a soma dos vetores de mesma posição( resA[] + resB[] )
+        
         System.out.println("Digite o vetor resultante: ");
-        for(int i=0; i<3; i++){
+        for(int i=0; i<3; i++){ //preenchendo vetor w(x,x,x)
             W[i] = in.nextInt();
         }
         System.out.println("Entre com os valores do vetor v1:");
-        for(int i=0; i<3; i++){
+        for(int i=0; i<3; i++){ //preenchendo v1(x,x,x)
             v1[i] = in.nextInt();
         }
         System.out.println("Entre com os valores do vetor v2:");
-        for(int i=0; i<3; i++){
+        for(int i=0; i<3; i++){ //preenchendo v2(x,x,x)
             v2[i] = in.nextInt();
         }
         System.out.println("Digite o valor do primeiro coeficiente <a>: ");
